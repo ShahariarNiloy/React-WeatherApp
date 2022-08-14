@@ -1,0 +1,71 @@
+.title {
+  font-weight: 700;
+  margin: 30px auto;
+  width: 100px;
+  display: block ruby;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.dailyItem {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  height: 40px;
+  margin: 5px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
+.iconSmall {
+  width: 40px;
+}
+
+.dailyItem .day {
+  cursor: inherit;
+  color: #212121;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.description {
+  cursor: inherit;
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.minMax {
+  color: #757575;
+}
+
+.dailyDetailsGrid {
+  grid-row-gap: 0;
+  grid-column-gap: 20px;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 25px;
+  row-gap: 0;
+}
+
+.dailyDetailsGridItem {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.dailyDetailsGridItem label:first-child {
+  color: #757575;
+  font-size: large;
+}
+
+.dailyDetailsGridItem label:last-child {
+  color: #212121;
+  font-weight: 600;
+}
